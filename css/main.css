@@ -107,11 +107,76 @@ header nav ul li a:hover,
 header nav ul li.actif a{
     color: #2ec4b6;
 }
+/*main*/
 
+main {
+   padding: 0 5%;
+}
 /*footer*/
 
 footer {
     text-align: center;
     margin: 50px 0;
 
+}
+
+footer nav ul  {
+    list-style-type: none;
+    padding: 0;
+}
+footer nav ul li {
+    display: inline-block;
+    margin: 0 .75em;
+}
+
+footer nav ul li img {
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+    transition: filter 1s;
+}
+footer nav ul li img:hover {
+    width: 50px;
+    height: 50px;
+    filter: grayscale(0%);
+}
+/* page contact */
+
+.page-contact ul.contact {
+    list-style-type: none;
+}
+
+.page-contact ul.contact li {
+    margin-bottom: .5em;
+}
+
+.page-contact ul.contact a {
+    padding-left: 30px;
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 0.1em;
+}
+
+.page-contact ul.contact a[href^="mailto"]{
+    padding-left: 30px;
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 0.1em;
+}
+
+.page-contact ul.contact a[href*="twitter"]{
+    padding-left: 30px;
+    background-image: url("../img/twitter.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 0.1em;
+}
+.page-contact ul.contact a[href*="facebook"]{
+    padding-left: 30px;
+    background-image: url("../img/facebook.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 0.1em;
 }
