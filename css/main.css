@@ -49,8 +49,7 @@ body {
 h1,
 h2,
 h3,
-.logo,
-header a{
+.logo {
     font-family: "Changa One", cursive;
     font-weight: 400;
 }
@@ -99,4 +98,20 @@ header nav ul li {
 }
 header nav ul li.hide {
     display: none;
+}
+header nav ul li a {
+    color: #fdfffc;
+    font-weight: 800;
+}
+header nav ul li a:hover,
+header nav ul li.actif a{
+    color: #2ec4b6;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+
 }
