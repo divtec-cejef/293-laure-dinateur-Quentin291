@@ -46,6 +46,10 @@ body {
     padding: 0;
     margin: 0;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 h1,
 h2,
 h3,
@@ -179,4 +183,21 @@ footer nav ul li img:hover {
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 0 0.1em;
+}
+
+.page-accueil .realisation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.page-accueil .realisation figure {
+    margin: 0;
+    padding: 0;
+}
+.page-accueil .realisation li {
+    flex-basis: calc(100% / 2);
+    flex-grow: 2;
+    padding: 10px;
 }
