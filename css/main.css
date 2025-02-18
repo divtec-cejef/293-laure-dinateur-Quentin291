@@ -201,3 +201,35 @@ footer nav ul li img:hover {
     flex-grow: 2;
     padding: 10px;
 }
+
+/************** Media Queries *********************/
+
+
+/* Pour les écrans >= 480px */
+
+@media screen and (min-width: 480px) {
+    .page-accueil .realisation li {
+        flex-basis: calc(100% / 3);
+        flex-grow: 3;
+    }
+    .page-contact .flex-container {
+        display: flex;
+        gap: 20px;
+    }
+    .page-contact .flex-container section {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (min-width: 660px) {
+    main {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 910px) {
+    main {
+        background-color: blue;
+    }
+
+}
